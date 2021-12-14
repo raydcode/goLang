@@ -60,3 +60,14 @@ Implement a main function to print a message to the console. A main function exe
 
 $ go run .
 Hello, World!
+
+
+if you getting error in go install 
+
+Change this:
+
+go env -w GO111MODULE=auto
+
+to this:
+
+go env -w GO111MODULE=off
