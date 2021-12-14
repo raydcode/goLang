@@ -6,6 +6,9 @@ import (
 	"github.com/raydcode/packages/strutil"
 )
 
+// use absolute paths for packages
+
+
 func main() {
 	//** pretty common Math functions in all languages :
 
