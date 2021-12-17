@@ -3,7 +3,7 @@ package main
 import (
 	"encoding/json"
 	"fmt"
-	"github.com/gorilla/mux"
+	"github.com/gorilla/mux" // note : it's not an native package so you need to go install github.com/gorilla/mux
 	"log"
 	"math/rand"
 	"net/http"
